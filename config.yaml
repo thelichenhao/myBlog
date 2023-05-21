@@ -74,15 +74,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to Chenhao's blog
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
+      url: "https://twitter.com/_YukiJudai_"
     - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://stackoverflow.com/users/18525431/chenhao-li"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/thelichenhao"
 
   analytics:
     google:
