@@ -3,16 +3,24 @@ title: Chenhao's Blog
 paginate: 5
 theme: hugo-PaperMod
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-googleAnalytics: UA-123-45
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
   minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -112,6 +120,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: categories
@@ -130,6 +139,7 @@ menu:
       name: Search
       url: /search/
       weight: 40
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -140,9 +150,3 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
