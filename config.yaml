@@ -68,18 +68,18 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: Welcome to Chenhao's Matrix
+    subtitle: "This site stores some memory of Chenhao about his CS career."
+    imageUrl: "https://s2.loli.net/2023/06/30/DpanTyzIOvuYrhg.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      # - name: Tags
+      #   url: tags
 
   # home-info mode
   homeInfoParams:
@@ -108,7 +108,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/thelichenhao/thelichenhao.github.io/issues"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
